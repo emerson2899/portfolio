@@ -13,7 +13,7 @@ function App() {
   return (
   <BrowserRouter>
 
-  <header>
+  
     <NavBar>
       <ul>
     <li>
@@ -24,7 +24,7 @@ function App() {
     </li>
     </ul>
     </NavBar>
-  </header>
+  
 
   <Routes>
     <Route  index element ={<Home/>}/>

@@ -1,9 +1,15 @@
 import styled from "styled-components"
 
-export const NavBar = styled.nav`
- border: 1px solid #282c34;
-  background-color: #61dafb;
-  right: 10rem;
+export const NavBar = styled.div`
+display: flex;
+flex-flow: row wrap;
+position: fixed-top;
+background-color: #61dafb;
+justify-content: center;
+align-itens: center;
+width: 100%;
+height: 10vh;
+
   
   `;
 
